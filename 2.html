@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multi Song Music Player</title>
+  <script src="https://kit.fontawesome.com/a04e1bdc8f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="music_player">
+    <nav>       
+        <div class="circle">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    
+    <img src="0L3A606322.JPG" alt="" height="200px" class="song_img">
+      <div class="volumr_control">
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">
+      </div>
+      
+        <div class="player">
+          <br>
+          <p>Now Playing</p>
+          <br>
+          <h2 id="title">Song Title</h2>
+          <audio id="audio" src=""></audio>
+          <input type="range" value="" id="progress">
+        </div>
+    <div class="controls">
+        <div id="prev"><i class="fa-solid fa-backward"></i></div>
+        <div id="play"><i class="fa-solid fa-play-pause"></i></div>
+        <div id="next"><i class="fa-solid fa-forward"></i></div>
+    </div>
+</div>
+</div>
+<script src="2.js"></script>
+</body>
+</html>
